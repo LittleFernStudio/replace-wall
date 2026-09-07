@@ -48,7 +48,7 @@ function ReplaceWallScreen:init()
     self:addviews({
         widgets.Window({
             view_id = 'window',
-            frame = { l = 0, t = 8, w = 45, h = 12, xalign = 0, yalign = 0 },
+            frame = { l = 6, t = 8, w = 45, h = 12, xalign = 0, yalign = 0 },
             frame_title = 'Replace Wall',
             subviews = {
                 widgets.HotkeyLabel({
