@@ -1,0 +1,14 @@
+{
+    "runtime.version": "Lua 5.3",
+    "runtime.path": [
+        "?.lua",
+        "?/init.lua",
+        "../lua/?.lua",
+        "../lua/?/init.lua"
+    ],
+    "workspace.library": [
+        "../lua",
+        "C:/Users/Willow/Documents/dfhack-lua-definitions/dist/library"
+    ],
+    "workspace.checkThirdParty": false
+}
